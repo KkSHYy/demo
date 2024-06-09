@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Demo Site</title>
+</head>
+
+<body>
+<table cellpadding="10">
+  <tr>
+    <td><img src="/assests/images/img1.jpg" alt="night" width="250" height="250"></td>
+
+    <td>
+      <h2>Hi Mindrisers</h2>
+      <strong>Sagun Gurung</strong>
+      <em>I'm Some Dev.</em>
+      <strong><a href="#">Social</a></strong>
+
+      <p>Currently, I'm taking MERN training class in Mindrisers. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris fugiat nulla pariatur.</p>
+  </td>
+  </tr>
+</table>
+
+  <h3>My Routine</h3>
+  <ol>
+    <li>Waking up</li>
+    <li>Eating breakfast</li>
+    <li>Being ready for the class</li>
+  </ol>
+
+  <h3>My Hobbies</h3>
+  <ul type="circle">
+    <li>Sing and Dance</li>
+    <li>Reading the books</li>
+    <li>Art and drawing</li>
+  </ul>
+
+  <!-- Audio/Video -->
+  <video src="https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4" controls height="200" loop width="200"></video>
+
+  <audio src="https://s3.amazonaws.com/scifri-episodes/scifri20181123-episode.mp3" controls height="200" loop width="200" ></audio>
+
+<!-- Videos -->
+  <h2>Recommended Videos</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xtgC9z4RO8M?si=vfvRqUpNhhWYR-xj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mrHNSanmqQ4?si=QhbTT9FZXQx80Pj5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- FORM -->
+  <h2>Contact Me</h2>
+  <fieldset>
+    <legend>Personal Information</legend>
+  
+    <form action="mailto:gsagun444@gmail.com" method="post">
+    <p>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter a username">
+    </p>
+  
+    <p>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    </p>
+  <!-- gender -->
+    <p>
+      <h3>Select Your gender</h3>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+  
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+      </p>
+  
+      <!-- hobbies -->
+      <p>
+        <h3>Select Your hobbies</h3>
+        <label for="sing">Sing</label>
+        <input type="checkbox" id="sing" name="hobbies" value="sing">
+    
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" name="hobbies" value="dance">
+        </p>
+  
+  <!-- comments -->
+        <p>
+          <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
+        </p>
+  
+  <!-- country -->
+    <p>
+    <h3>Select Your Country</h3>
+    <select name="country-new" id="">
+      <optgroup label="Asia">
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option>
+      </optgroup>
+      <optgroup label="S.America">
+        <option value="USA">USA</option>
+        <option value="Mexico">Mexico</option>
+      </optgroup>
+    </select>
+    </p>
+  
+      <!-- button -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+  </fieldset>
+</body>
+</html>

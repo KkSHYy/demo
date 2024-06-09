@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<body>
+<fieldset>
+  <legend>Personal Information</legend>
+
+  <form action="mailto:gsagun444@gmail.com" method="post">
+  <p>
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" placeholder="Enter a username">
+  </p>
+
+  <p>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email">
+  </p>
+<!-- gender -->
+  <p>
+    <h3>Select Your gender</h3>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    </p>
+
+    <!-- hobbies -->
+    <p>
+      <h3>Select Your hobbies</h3>
+      <label for="sing">Sing</label>
+      <input type="checkbox" id="sing" name="hobbies" value="sing">
+  
+      <label for="dance">Dance</label>
+      <input type="checkbox" id="dance" name="hobbies" value="dance">
+      </p>
+
+<!-- comments -->
+      <p>
+        <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
+      </p>
+
+<!-- country -->
+  <p>
+  <h3>Select Your Country</h3>
+  <select name="country-new" id="">
+    <optgroup label="Asia">
+      <option value="Nepal">Nepal</option>
+      <option value="India">India</option>
+    </optgroup>
+    <optgroup label="S.America">
+      <option value="USA">USA</option>
+      <option value="Mexico">Mexico</option>
+    </optgroup>
+  </select>
+  </p>
+
+    <!-- button -->
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+  </form>
+</fieldset>
+</body>
+</html>
